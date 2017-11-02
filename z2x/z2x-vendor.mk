@@ -49,7 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2x/proprietary/lib64/libmaximsensor-jni.so:system/lib64/libmaximsensor-jni.so \
     vendor/zuk/z2x/proprietary/lib64/libmaximsensormgr-jni.so:system/lib64/libmaximsensormgr-jni.so \
     vendor/zuk/z2x/proprietary/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
-    vendor/zuk/z2x/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
+    vendor/zuk/z2x/proprietary/vendor/lib/libactuator_dw9767.so:system/vendor/lib/libactuator_dw9767.so \
     vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_common.so:system/vendor/lib/libchromatix_s5k2m8sx_common.so \
     vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_120.so \
     vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_60.so \
@@ -58,26 +58,25 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_cpp_preview.so:system/vendor/lib/libchromatix_s5k2m8sx_cpp_preview.so \
     vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k2m8sx_cpp_snapshot.so \
     vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_cpp_video.so:system/vendor/lib/libchromatix_s5k2m8sx_cpp_video.so \
-    vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_default_preview_ak7371.so:system/vendor/lib/libchromatix_s5k2m8sx_default_preview_ak7371.so \
+    vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_default_preview_dw9767.so:system/vendor/lib/libchromatix_s5k2m8sx_default_preview_dw9767.so \
     vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_default_video.so:system/vendor/lib/libchromatix_s5k2m8sx_default_video.so \
-    vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_default_video_ak7371.so:system/vendor/lib/libchromatix_s5k2m8sx_default_video_ak7371.so \
+    vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_default_video_dw9767.so:system/vendor/lib/libchromatix_s5k2m8sx_default_video_dw9767.so \
     vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_hfr_120.so:system/vendor/lib/libchromatix_s5k2m8sx_hfr_120.so \
-    vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_hfr_120_ak7371.so:system/vendor/lib/libchromatix_s5k2m8sx_hfr_120_ak7371.so \
+    vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_hfr_120_dw9767.so:system/vendor/lib/libchromatix_s5k2m8sx_hfr_120_dw9767.so \
     vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_hfr_60.so:system/vendor/lib/libchromatix_s5k2m8sx_hfr_60.so \
-    vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_hfr_60_ak7371.so:system/vendor/lib/libchromatix_s5k2m8sx_hfr_60_ak7371.so \
+    vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_hfr_60_dw9767.so:system/vendor/lib/libchromatix_s5k2m8sx_hfr_60_dw9767.so \
     vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_hfr_90.so:system/vendor/lib/libchromatix_s5k2m8sx_hfr_90.so \
-    vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_hfr_90_ak7371.so:system/vendor/lib/libchromatix_s5k2m8sx_hfr_90_ak7371.so \
+    vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_hfr_90_dw9767.so:system/vendor/lib/libchromatix_s5k2m8sx_hfr_90_dw9767.so \
     vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_liveshot.so:system/vendor/lib/libchromatix_s5k2m8sx_liveshot.so \
     vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_postproc.so:system/vendor/lib/libchromatix_s5k2m8sx_postproc.so \
     vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_preview.so:system/vendor/lib/libchromatix_s5k2m8sx_preview.so \
     vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_snapshot.so:system/vendor/lib/libchromatix_s5k2m8sx_snapshot.so \
-    vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_zsl_preview_ak7371.so:system/vendor/lib/libchromatix_s5k2m8sx_zsl_preview_ak7371.so \
-    vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_zsl_video_ak7371.so:system/vendor/lib/libchromatix_s5k2m8sx_zsl_video_ak7371.so \
+    vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_zsl_preview_dw9767.so:system/vendor/lib/libchromatix_s5k2m8sx_zsl_preview_dw9767.so \
+    vendor/zuk/z2x/proprietary/vendor/lib/libchromatix_s5k2m8sx_zsl_video_dw9767.so:system/vendor/lib/libchromatix_s5k2m8sx_zsl_video_dw9767.so \
     vendor/zuk/z2x/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
     vendor/zuk/z2x/proprietary/vendor/lib/libmmcamera_onsemi_cat24c64_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c64_eeprom.so \
     vendor/zuk/z2x/proprietary/vendor/lib/libmmcamera_ov8865.so:system/vendor/lib/libmmcamera_ov8865.so \
     vendor/zuk/z2x/proprietary/vendor/lib/libmmcamera_s5k2m8sx.so:system/vendor/lib/libmmcamera_s5k2m8sx.so \
-    vendor/zuk/z2x/proprietary/vendor/lib/libois_bu24218gwl.so:system/vendor/lib/libois_bu24218gwl.so \
     vendor/zuk/z2x/proprietary/vendor/lib/sensors.maxim-bio.so:system/vendor/lib/sensors.maxim-bio.so \
     vendor/zuk/z2x/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
     vendor/zuk/z2x/proprietary/vendor/lib64/libmxbio.so:system/vendor/lib64/libmxbio.so \
